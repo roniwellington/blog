@@ -396,12 +396,12 @@ footer > p{
     }
 
     .main-container-right article{
-        display: block;
+        display: flex;
     }
 
-    .main-container-right article img{
-        display: none;
-    }
+    /* .main-container-right article img{
+        display: flex;
+    } */
 
 
 }
