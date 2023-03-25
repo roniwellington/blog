@@ -48,6 +48,7 @@
     font-size: 1rem;
     line-height: 1.7rem;
     margin: 1rem 0;
+    
 }
 
 .share {
@@ -66,16 +67,7 @@
     margin-left: 10px;
 }
 
-@media(min-width: 800px){
-    .post-container {
-        padding: 20px;
-    }
-}
-
 @media(min-width: 768px){
-    .post-container {
-        padding: 40px;
-    }
 
     .sub-heading {
         padding-top: 10px;
