@@ -538,11 +538,29 @@ footer > p{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
 }
 
 @media(min-width: 1080px){
     .banner{
         grid-template-columns: 1fr 2fr;
     }
+
+}
+
+@media(min-width: 1280px){
+    main {
+        margin: 0 8%;
+    }
+    .banner{
+        margin: 0 8%;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .artigo .artigo-post{
+        margin-left: 8%;
+        
+    }
+
 }
 
