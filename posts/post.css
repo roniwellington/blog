@@ -45,7 +45,7 @@
 }
 
 .post-text {
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.7rem;
     margin: 1rem 0;
     
@@ -67,6 +67,16 @@
     margin-left: 10px;
 }
 
+.fonte {
+    color: darkred;
+}
+
+.post-coment {
+    padding-top: 8px;
+    color: #7a7a7a;
+    line-height: 1.5rem;
+}
+
 @media(min-width: 768px){
 
     .sub-heading {
@@ -81,5 +91,11 @@
 
     .sub-heading {
         padding-top: 20px;
+    }
+
+    .post-coment {
+        padding-top: 13rem;
+        color: #7a7a7a;
+        line-height: 1.5rem;
     }
 }
