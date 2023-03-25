@@ -76,10 +76,18 @@
     .post-container {
         padding: 40px;
     }
+
+    .sub-heading {
+        padding-top: 10px;
+    }
 }
 
 @media(max-width: 500px){
     .post-container {
         padding: 20px;
+    }
+
+    .sub-heading {
+        padding-top: 20px;
     }
 }
