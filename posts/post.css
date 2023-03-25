@@ -48,7 +48,7 @@
     font-size: 1.1rem;
     line-height: 1.7rem;
     margin: 1rem 0;
-    
+
 }
 
 .share {
@@ -63,7 +63,7 @@
     padding-bottom: 10px;
 }
 
-.share a { 
+.share a {
     margin-left: 10px;
 }
 
@@ -95,14 +95,33 @@
     margin-bottom: 15px;
 }
 
-@media(min-width: 768px){
+.post-post {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f3f3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.post-veja {
+    width: 230px;
+    margin: 15px;
+}
+
+.post-veja img {
+    width: 230px;
+}
+
+
+@media(min-width: 768px) {
 
     .sub-heading {
         padding-top: 10px;
     }
 }
 
-@media(max-width: 500px){
+@media(max-width: 500px) {
     .post-container {
         padding: 20px;
     }
@@ -117,9 +136,14 @@
         line-height: 1.5rem;
     }
 
-    .post-perfil{
+    .post-perfil {
         flex-direction: column;
         text-align: center;
         padding: 15px;
+    }
+
+    .post-post {
+        flex-direction: column;
+        text-align: center;
     }
 }
