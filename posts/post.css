@@ -113,6 +113,21 @@
     width: 230px;
 }
 
+.post-post p {
+    margin: 10px 0;
+}
+
+.post-post .button-post {
+    background-color: #212121;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.post-post a {
+    color: #fff;
+}
+
 
 @media(min-width: 768px) {
 
