@@ -72,7 +72,7 @@
 }
 
 .post-coment {
-    padding-top: 8px;
+    padding-top: 30px;
     color: #7a7a7a;
     line-height: 1.5rem;
 }
@@ -167,6 +167,7 @@
         padding-top: 10px;
     }
 
+
 }
 
 @media(max-width: 700px){
@@ -175,6 +176,12 @@
         align-items: center;
     }
 
+    .post-content {
+        margin-top: 2rem;
+    }
+
+    
+
     .post-veja {
         width: 290px;
     }
@@ -182,6 +189,10 @@
     .post-veja img {
         width: 290px;
         height: 290px;
+    }
+
+    .post-content .post-retrato {
+        margin-top: 8rem;
     }
 
     
@@ -197,7 +208,6 @@
     }
 
     .post-coment {
-        /* padding-top: 13rem; */
         color: #7a7a7a;
         line-height: 1.5rem;
     }
@@ -208,4 +218,14 @@
         padding: 15px;
     }
 
+    .post-content .post-retrato {
+        margin-top: 10rem;
+    }
+
+}
+
+@media(max-width: 400px){
+    .post-content .post-retrato {
+        margin-top: 18rem;
+    }
 }
