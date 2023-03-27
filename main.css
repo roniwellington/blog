@@ -62,6 +62,10 @@ hr{
     display: none;
 }
 
+header {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.259);
+}
+
 .nav-bar{
     background: #333;
     height: 0;
