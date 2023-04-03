@@ -410,6 +410,10 @@ footer > p{
     margin: 10px;
 }
 
+footer .footer-left a {
+    color: white;
+}
+
 
 
 /*-----------------------------------*\
